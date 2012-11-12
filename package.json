@@ -1,17 +1,21 @@
 {
   "name": "tts",
   "version": "0.0.0",
-  "description": "Module to interact with TTS-API.com",
-  "main": "./tts",
+  "description": "Simple way to get TTS with node using TTS-API.com",
+  "main": "tts.js",
   "dependencies": {
-    "request": "~2.12.0",
+    "request": "~2.12.0"
+  },
+  "devDependencies": {
     "coffee-script": "~1.4.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "node test.js"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/elbuo8/node-tts-api.git"
+  },
   "keywords": [
     "text",
     "to",
@@ -20,5 +24,6 @@
     "api"
   ],
   "author": "elbuo8 (Yamil Asusta)",
-  "license": "BSD"
+  "license": "BSD",
+  "readmeFilename": "README"
 }

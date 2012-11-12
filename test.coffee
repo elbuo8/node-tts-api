@@ -1,7 +1,7 @@
 require ('coffee-script')
 tts = require('./tts')
 
-bicho = "Hello World"
+example = "Hello World"
 
-tts.getSpeech bicho, (error, link) ->
+tts.getSpeech example, (error, link) ->
     console.log link
