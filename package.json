@@ -1,0 +1,24 @@
+{
+  "name": "tts",
+  "version": "0.0.0",
+  "description": "Module to interact with TTS-API.com",
+  "main": "./tts",
+  "dependencies": {
+    "request": "~2.12.0",
+    "coffee-script": "~1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": "",
+  "keywords": [
+    "text",
+    "to",
+    "speech",
+    "tts",
+    "api"
+  ],
+  "author": "elbuo8 (Yamil Asusta)",
+  "license": "BSD"
+}
