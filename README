@@ -1,1 +1,21 @@
-Obtain a MP3 download from http://tts-api.com/ using this nodes module.
+# Foursquare Venues API
+  
+This is a simple module to access 4squares' venue API.  
+
+	npm install node-tts-api
+
+## Example  
+
+```js
+  	tts = require('./node-tts-api');
+
+  	example = "Hello World";
+
+  	tts.getSpeech(example, function(error, link) {
+    	return console.log(link);
+  	});
+
+```
+
+
+**Enjoy the usage. You can email me at yamil.asusta@upr.edu for any bugs.**
