@@ -1,6 +1,6 @@
-# Foursquare Venues API
+# TTS API Module for Node.js
   
-This is a simple module to access 4squares' venue API.  
+This is a simple module to access tts-api.com.  
 
 	npm install node-tts-api
 
@@ -14,8 +14,8 @@ This is a simple module to access 4squares' venue API.
   	tts.getSpeech(example, function(error, link) {
     	return console.log(link);
   	});
-
 ```
+
 
 
 **Enjoy the usage. You can email me at yamil.asusta@upr.edu for any bugs.**
