@@ -1,6 +1,6 @@
 {
   "name": "node-tts-api",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Simple way to get TTS with node using TTS-API.com",
   "main": "node-tts-api.js",
   "dependencies": {
