@@ -1,4 +1,3 @@
-require ('coffee-script')
 tts = require('./node-tts-api')
 
 example = "Hello World"
